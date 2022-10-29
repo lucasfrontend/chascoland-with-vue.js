@@ -125,17 +125,13 @@ aside{
                 }
             }
             .items {
-                transition: 0.2s ease-out;
+                transition: 0.3s ease-out;
                 color: var(--dark);
             }
+            
             &:hover {
                 //agregar color de fondo
                 background-color: var(--dark-alt);
-
-                .icons {
-                    color: var(--primary);
-                }
-
                 
             }
             &.router-link-exact-active{
@@ -167,34 +163,26 @@ aside{
                 display: flex;
                 flex-direction: row-reverse;
                 justify-content: space-between;
-                .icons{
-                }
                 .items{
                     padding-left: 2rem;
                     min-width: 50px;
                     text-align: left;
                     align-items: left;
                     color: var(--light);
+                    transition: 0.3s ease-out;
                 }
+                
                 &:hover {
                 //agregar color de fondo
                 background-color: var(--dark-alt);
-
-                /*
-                .fa-hand {
-                    color: var(--secondary);
-
-                }
-                .fa-list{
-                    color: var(--tertiary);
-                }
-                */
                 .icons, .items {
-                    color: var(--primary)
+                    color: var(--primary);
+                    
+                    
                 }
-                &.router-link-exact-active{
+                &.router-link-exact-active {
                     background-color: var(--dark-alt);
-
+                    color: var(--primary);
                 }
             }
                 

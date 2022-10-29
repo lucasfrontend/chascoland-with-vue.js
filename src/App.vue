@@ -2,17 +2,21 @@
   <div class="app">
     <SideBar />
     <RouterView />
+    
+    <Footer/>
   </div>
 </template>
 
 <script>
 import SideBar from '@/components/SideBar.vue'
+import Footer from '@/components/Footer.vue'
 
 
 export default {
   name: 'App',
   components: {
-    SideBar
+    SideBar,
+    Footer
   }
 } 
 
@@ -47,6 +51,9 @@ button{
   background: none;
 }
 
+p, h3 {
+  color: var(--light);
+}
 .app{
   display: flex;
   main{
