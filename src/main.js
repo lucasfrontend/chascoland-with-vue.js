@@ -14,4 +14,8 @@ import { faAnglesRight, faPeopleGroup, faBeerMugEmpty, faList, faHand, faDownloa
 /* add icons to the library */
 library.add(faHome, faHand, faAnglesRight, faPeopleGroup, faBeerMugEmpty, faList, faDownload, faCloud, faWind, faArrowDown, faTemperature0)
 
-createApp(App).use(router).component('font-awesome-icon', FontAwesomeIcon).mount('#app')
+const app = createApp(App)
+
+app.use(router).component('font-awesome-icon', FontAwesomeIcon)
+
+app.mount('#app')
