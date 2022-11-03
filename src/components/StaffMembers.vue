@@ -1,19 +1,21 @@
 <template>
-    <div class="container">
-        <div class="row">
-            <div class="col"
-                v-for="member in members"
-                :key="member.id">            
-                <v-card-member 
-                    :name="member.name"
-                    :position="member.position"
-                    :img="member.img"
-                    :phone="member.phone"
-                    :alt ="member.name"
-                />
-            </div>
-        </div>
-    </div>
+  <div class="container">
+    <div class="row">
+      <h3>Staff</h3>
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam fugit eveniet, ullam quae rerum iusto dolores alias sequi magni quasi quaerat nemo. Architecto, quo illo id reiciendis aperiam voluptatem veniam.</p>
+      <div class="col"
+              v-for="member in members"
+              :key="member.id">            
+              <v-card-member class="row"
+                  :name="member.name"
+                  :position="member.position"
+                  :img="member.img"
+                  :alt ="member.name"
+              />
+          </div>
+    </div> 
+
+  </div>
 </template>
 
 <script>
@@ -34,4 +36,6 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+
+</style>

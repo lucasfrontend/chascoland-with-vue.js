@@ -67,6 +67,7 @@ const toggleMenu = () => {
 
 <style lang="scss" scoped>
 aside{
+    position: fixed;
     display: flex;
     flex-direction: column;
     background-color: var(--dark);
@@ -126,24 +127,18 @@ aside{
             }
             .items {
                 transition: 0.3s ease-out;
-                color: var(--dark);
+                color: var(--primary);
             }
             
             &:hover {
-                //agregar color de fondo
                 background-color: var(--dark-alt);
-                
+                color: var(--primary);
             }
             &.router-link-exact-active{
                 color: var(--primary);
                 background-color: var(--dark-alt);
             }
         }
-    }
-    h3 {
-        opacity: 0;
-        transition: 0.3s ease-out;
-        margin: 0 auto 1rem;
     }
     &.is_expanded{
         width: var(--sidebar-width);
@@ -175,23 +170,14 @@ aside{
                 &:hover {
                 //agregar color de fondo
                 background-color: var(--dark-alt);
-                .icons, .items {
-                    color: var(--primary);
-                    
-                    
+                color: var(--primary);                    
+                    .icons, .items {
+                        color: var(--primary);                    
+                    }
                 }
-                &.router-link-exact-active {
-                    background-color: var(--dark-alt);
-                    color: var(--primary);
-                }
-            }
                 
             }
         }
-        h3 {
-        opacity: 1;
-        transition: 0.3s ease-out;
-    }
 
     }
 }

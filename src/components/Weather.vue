@@ -38,7 +38,7 @@ export default {
 
 }
 </script>
-foto daft punkpreguntandose si no van a volver , a romper todoo¡?
+
 <style lang="scss">
 .weather-container{
     display:flex;
@@ -53,7 +53,7 @@ foto daft punkpreguntandose si no van a volver , a romper todoo¡?
         text-align: center;
         text-decoration: none;
         min-width: 20%;
-        font-size: 0.3rem;
+        font-size: 0.5rem;
         .icons {
             font-size: 1.4rem;
             color: var(--light);

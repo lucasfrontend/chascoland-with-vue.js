@@ -15,11 +15,14 @@ export default {
 
 <style lang="scss" scoped>
 .footer{
-    position: absolute;
+    position: fixed;
     right: 1rem;
     bottom: 1rem;
     text-align: right;
     font-size: 0.8rem;
+    /*
+    overflow:hidden;
+    */
     .vue{
         background-image: requiere('@/assets/logo.png');
         min-width: 3rem;

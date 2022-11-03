@@ -1,15 +1,11 @@
 <template>
-    <div class="card" style="width: 18rem;">
-        <img class="card-img-top" :src='img' :alt='alt'>
-        <div class="card-body">
-            <h3>{{ name }}</h3>
-            <h4> {{ position }}</h4>
-            <h3>{{phone}}</h3>
-            <pre>
-                {{ img}}
-            </pre>
-        </div>
+    <div class="col-4 col-md-6 col-xl-4 staff-card">
+        <img class="img-fluid" :src='img' :alt='alt' />
+        <h4> {{ name }} </h4>
+        <p> {{ position }} </p>
     </div>
+        <!--
+-->
 </template>
 
 <script>
@@ -18,7 +14,6 @@ export default {
     props: {
         name: String,
         position: String,
-        phone: String,
         img: String,
         alt: String
     }
@@ -26,4 +21,19 @@ export default {
 
 </script>
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+.staff-card {
+    min-width: 150px;
+  padding: 30px 0 40px;
+  margin-bottom: 30px;
+  background-color: #f1f5f98e;
+  text-align: center;
+  border-radius: 3px;
+}
+
+img{
+    border-radius: 50%;
+    min-width: 150px;
+    min-height: 50px;
+}
+</style>

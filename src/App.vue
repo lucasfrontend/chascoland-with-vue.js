@@ -3,14 +3,13 @@
     <SideBar />
     <RouterView />
     
-    <Footer/>
+    <Footer />
   </div>
 </template>
 
 <script>
 import SideBar from '@/components/SideBar.vue'
 import Footer from '@/components/Footer.vue'
-
 
 export default {
   name: 'App',
@@ -58,7 +57,7 @@ p, h3 {
   display: flex;
   main{
     flex: 1 1 0;
-    padding: 2rem;
+    padding:  1.5rem 1.5rem 1rem 9rem;
 
     @media(max-width: 768px){
       padding-left: 7rem;
@@ -71,6 +70,7 @@ p, h3 {
   .header{
     nav {
       a.router-link-exact-active {
+        /*?????*/
         color: #ff0c0c;
       }
     }
