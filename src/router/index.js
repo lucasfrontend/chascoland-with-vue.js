@@ -11,10 +11,10 @@ import ItemD from '@/components/items/ItemD'
 import AboutView from '@/views/AboutView'
 import HomeView from '@/views/HomeView'
 import Page404 from '@/views/Page404View'
-import StaffView from '@/views/StaffView'
+import GlossaryView from '@/views/GlossaryView'
 import BeerView from '@/views/BeerView'
 import Item1View from '@/views/Item1View'
-import Item2View from '@/views/Item2View'
+import StaffView from '@/views/StaffView'
 
 //import Ruta from '@/components/items/Ruta'
 
@@ -31,9 +31,9 @@ const routes = [
     name: 'about'
   },
   {
-    path: '/staff',
-    component: StaffView,
-    name: 'staff'
+    path: '/glossary',
+    component: GlossaryView,
+    name: 'glossary'
   },
   {
     path: '/beer',
@@ -46,9 +46,9 @@ const routes = [
     name: 'item1'
   },
   {
-    path: '/item2',
-    component: Item2View,
-    name: 'item2'
+    path: '/staff',
+    component: StaffView,
+    name: 'staff'
   },
   /*
   {

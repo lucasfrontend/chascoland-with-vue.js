@@ -26,29 +26,31 @@
 
             <router-link class="button-menu" to="/item1">
                 <span class="icons">
-                    <font-awesome-icon icon="fa-solid fa-list" />
+                    <font-awesome-icon icon="fa-solid fa-download" /> 
                 </span>
                 <span class="items">Item 1</span>
             </router-link>
 
+            <!--
             <router-link class="button-menu" to="/beer">
                 <span class="icons">
                     <font-awesome-icon icon="fa-beer-mug-empty" />
                 </span>
                 <span class="items">Cerveza</span>
             </router-link>
-
-            <router-link class="button-menu" to="/item2">
+            -->
+            
+            <router-link class="button-menu" to="/glossary">
                 <span class="icons">
-                    <font-awesome-icon icon="fa-solid fa-download" /> 
-                </span>               
-                <span class="items">Item 2</span>
+                    <font-awesome-icon icon="fa-solid fa-list" />
+                </span>
+                <span class="items">Glosario</span>
             </router-link>
 
             <router-link class="button-menu" to="/staff">
                 <span class="icons">
                     <font-awesome-icon icon="fa-solid fa-people-group" />
-                </span>
+                </span>               
                 <span class="items">Staff</span>
             </router-link>
         </div>
