@@ -142,6 +142,7 @@ import StaffMemberCard from '@/components/items/StaffMemberCard';
   background-position: center; 
   min-height: 100vh;
   min-width: 80%;
+  z-index: -10;
 }
 .team-members {
   transform: rotate(-45deg);
@@ -164,6 +165,7 @@ import StaffMemberCard from '@/components/items/StaffMemberCard';
 }
 
 .member-details {
+  
   > div {
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -176,6 +178,7 @@ import StaffMemberCard from '@/components/items/StaffMemberCard';
     position: relative;
     overflow: hidden;
     border-radius: 10px;
+
 
   }
   .jaira{
