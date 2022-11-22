@@ -127,7 +127,6 @@ SwiperCore.use([Navigation, Parallax, Autoplay]);
   color: #000;
   font-size: 24px;
   font-weight: 700;
-  z-index: -10;
 }
 
 /*.swiper-slide:nth-child(1n) {

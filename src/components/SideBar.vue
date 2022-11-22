@@ -144,6 +144,7 @@ aside{
     }
     &.is_expanded{
         width: var(--sidebar-width);
+        z-index: 10;
         .menu-toggle-container{
             .menu-toggle{
                 transform: rotate(180deg);
