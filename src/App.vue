@@ -8,7 +8,7 @@
 
 <script>
 import SideBar from '@/components/SideBar.vue'
-import Footer from '@/components/Footer.vue'
+import Footer from './components/Footer.vue'
 
 export default {
   name: 'App',

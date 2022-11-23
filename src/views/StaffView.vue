@@ -317,8 +317,6 @@ import StaffMemberCard from '@/components/items/StaffMemberCard';
   }
 }
 
-/* For centering elements - optional - Can use table,tablecell instead */
-
 .flex-center {
   display: flex;
   flex-direction: row;

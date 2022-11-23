@@ -2,7 +2,6 @@
     <main class="swiper-container">
       <div class="container pt-4">
         <h3>Titulo Slider</h3>
-
         <p class="pt-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus totam vitae eveniet quod omnis quidem dignissimos optio, illum quam officiis vel, voluptatem expedita consequuntur tempora voluptatum consectetur quaerat eaque. Voluptate.</p>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus totam vitae eveniet quod omnis quidem dignissimos optio, illum quam officiis vel, voluptatem expedita consequuntur tempora voluptatum consectetur quaerat eaque. Voluptate.</p>
         <SwiperSlider class="pb-4"/>
