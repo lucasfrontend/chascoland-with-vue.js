@@ -43,7 +43,8 @@
                   <li class="clearfix">
                     <div class="member-details">
                       <div class="richi">
-                        <img src="../assets/none.png" alt="UI Designer">                        <div class="member-info">
+                        <img src="../assets/none.png" alt="UI Designer">                        
+                        <div class="member-info">
                           <h3>Richard</h3>
                           <p>Tandem - AFF</p>
                         </div>
