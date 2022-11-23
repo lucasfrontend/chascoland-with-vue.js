@@ -22,7 +22,6 @@ export default {
   background-image: url('../assets/logo-letras_verdes.png');
   background-repeat: no-repeat;
   background-position: center; 
-  -webkit-background-size: cover;
   min-height: 300px;
   min-width: 300px;
 }

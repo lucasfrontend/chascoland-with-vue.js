@@ -2,7 +2,6 @@
   <div class="app">
     <SideBar />
     <RouterView />
-    
     <Footer />
   </div>
 </template>
